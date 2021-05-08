@@ -1,0 +1,5 @@
+#marwan Ramadan
+FROM python
+COPY . /cloud
+WORKDIR /cloud
+CMD python pythonmarwan.py
